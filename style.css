@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cursed Timer ULiL';
-    src: url('./font/CursedTimerULiL.ttf') format('truetype');
+    src: url('CursedTimerULiL.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

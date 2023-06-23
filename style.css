@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('./font/CursedTimerULiL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    margin: 0;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    width: 30%;
+    max-width: 500px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em 3em;
+}
+.title{
+    color:#F9FAFB;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    background-color: #111827;
+    padding: 1.5em 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#homescore-point, #guestscore-point{
+    font-family: 'Cursed Timer ULiL';
+    color: #F43F5E;
+    font-size: 3.5rem; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* BUTTONS */
+
+button{
+    margin-top: 2em;
+    border: 2px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 1.125rem;
+    background-color: transparent;
+    color: #9AABD8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: .5em .5em;
+    cursor: pointer;
+}
+
+.btn-score > * {
+    margin-left: .5em;
+}
+
+.btn-score button:first-child{
+    margin-left: 0;
+}
+
+#btn-newgame{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F9FAFB;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    color: #1F2937;
+}
